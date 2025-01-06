@@ -24,8 +24,8 @@ def reg_page(chrome_browser_instance):
 
 def test_successful_registration_by_email(reg_page):
     reg_page.btn_kc_register.click()
-    reg_page.input_first_name.send_keys("Иван")
-    reg_page.input_last_name.send_keys("Иванов")
+    reg_page.input_first_name.send_keys("Петр")
+    reg_page.input_last_name.send_keys("Петров")
     reg_page.input_email_or_phone.send_keys(valid_email)
     reg_page.input_password.send_keys(valid_password_email)
     reg_page.input_confirm_password.send_keys(valid_password_email)
@@ -39,8 +39,8 @@ def test_successful_registration_by_email(reg_page):
 
 def test_successful_registration_by_phone(reg_page):
     reg_page.btn_kc_register.click()
-    reg_page.input_first_name.send_keys("Иван")
-    reg_page.input_last_name.send_keys("Иванов")
+    reg_page.input_first_name.send_keys("Петр")
+    reg_page.input_last_name.send_keys("Петров")
     reg_page.input_email_or_phone.send_keys(valid_phone)
     reg_page.input_password.send_keys(valid_password_phone)
     reg_page.input_confirm_password.send_keys(valid_password_phone)
