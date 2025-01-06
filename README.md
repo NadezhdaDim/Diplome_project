@@ -1,9 +1,9 @@
 # 33.1. Итоговый проект по автоматизации тестирования (PJ-04) 
-Выполнил: Федоров Андрей QAP-147
+Выполнил: Юсаева Надежда QAP-190
 
 Ссылка на чек-лист, тест-кейсы и баг репорты:
 
-https://docs.google.com/spreadsheets/d/1-8bU6MJ8YvNgrq3wMPnkrBShkOkMf18X37ahQQbHPGM/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1TxSj9UhKUXHhieWkNglXCaeWnJIJOudykYK_xDupNd4/edit?usp=sharing
 
 В процессе выполнения проекта использовалось ручное тестирование в проверках юзабилити интерфейса, работы системы
 и адаптивности сайта на мобильном устройстве. Некоторые тест-кейсы, которые можно автоматизировать, выполнялись 
